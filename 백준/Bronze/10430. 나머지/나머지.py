@@ -1,0 +1,5 @@
+var, var1, var2 = map(int, input().split())
+print((var + var1)%var2)
+print(((var % var2) + (var1 % var2))%var2)
+print((var * var1)%var2)
+print(((var % var2) * (var1 % var2))%var2)
